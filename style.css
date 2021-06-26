@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+    font-style: normal;
+    
+}
+.bg-image{
+    background-image: url('images/background-image.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.navbar-light .navbar-brand {
+    color: purple;
+}
+
+.navbar-nav .navbar-item .nav-link{
+    padding-left: 40px;
+    font-weight:500;
+}
+
+.navbar-nav .navbar-item .nav-link:hover{
+    color: purple;
+}
+.background-text{
+    padding-top: 200px;
+}
+
+.background-text h1{
+    font-size :64px;;
+}
+.background-text h2{
+    font-size: 48x;
+}
+.btn-primary{
+    background-color:purple;
+    border: 2px solid purple;
+}
+
+.btn-primary:hover{
+    background-color: violet;
+    border: 2px solid violet;
+}
+.services{
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-header{
+    font-size: 48px;
+}
+
+.services-paragraph{
+    color: gray;
+    line-height: 35px;
+}
+.card{
+    border: none;
+}
+
+.services-row{
+    padding-top: 50px;
+}
+.iconbox{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color:purple;
+}
+.fa{
+    color: white;
+    margin-top: 25px;
+}
+
+.portfolio{
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card img{
+    width: 100%;
+    height: 194px;
+}
+
+.card2{
+    border: 1px solid white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.portfolio-row{
+    padding-top: 40px;
+}
+
+.team{
+    padding: 100px 0;
+}
+
+.team-row{
+    padding-top: 40px;
+}
+
+.footer{
+    height: 60px;
+}
+.footer h6{
+    color: lightslategray;
+    line-height: 60px;
+}
+
